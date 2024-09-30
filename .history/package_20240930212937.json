@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "lint": "./node-modules."
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
