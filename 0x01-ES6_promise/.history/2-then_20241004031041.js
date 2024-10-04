@@ -1,7 +1,7 @@
-#!/usr/bin/node 
 /* eslint-disable no-unused-vars */
 /* eslint-disable */
 
+#!/usr/bin/
 export default function handleResponseFromAPI(promise) {
   return promise
     .then(() => ({
