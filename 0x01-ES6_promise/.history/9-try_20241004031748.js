@@ -1,7 +1,5 @@
-#!/usr/bin/node
 /* eslint-disable no-unused-vars */
-/* eslint-disable */
-
+/* eslint-disable */ 
 export default function guardrail(mathFunction) {
   const queue = [];
   try {

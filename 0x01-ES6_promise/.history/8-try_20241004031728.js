@@ -1,6 +1,6 @@
-#!/usr/bin/node
+
 /* eslint-disable no-unused-vars */
-/* eslint-disable */
+/* eslint-disable */ 
 
 export default function divideFunction(numerator, denominator) {
   if (denominator === 0) {
