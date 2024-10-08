@@ -7,9 +7,4 @@ export default function getListStudentIds(array) {
   if (!Array.isArray(array)){
     return listStudentIds;
   }
-  array.map((values) => {
-    listStudentIds.push(values.id);
-  })
-
-  return listStudentIds;
 }

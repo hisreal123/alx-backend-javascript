@@ -8,7 +8,7 @@ export default function getListStudentIds(array) {
     return listStudentIds;
   }
   array.map((values) => {
-    listStudentIds.push(values.id);
+    listStudentIds.push(id);
   })
 
   return listStudentIds;
