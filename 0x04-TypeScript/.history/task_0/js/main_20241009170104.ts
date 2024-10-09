@@ -1,5 +1,4 @@
 
-
 // interface Student
 interface Student {
   firstName : string,
@@ -9,7 +8,7 @@ interface Student {
 }
 
 //
-const studentsList = [
+const studentList = [
   {
     firstName : "George",
     lastName  : "Omos",
@@ -25,16 +24,14 @@ const studentsList = [
 ];
 
 
-let table = document.createElement('table');
+let myTable = document.createElement('table');
 
 // rendering through
 
-studentsList.forEach((student) => {
-  const row = table.insertRow();
-  const nameCell = row.insertCell();
-  const locationCell = row.insertCell();
-  nameCell.textContent = student.firstName;
-  locationCell.textContent = student.location;
-});
-
-document.body.appendChild(table)
+for (let i = 0; i < studentList.length; i++ ){
+  let row = myTable.insertRow();
+  let name = row.insertCell();
+  let location = row.insertCell()
+  name.innerHTML = studentList[i].firstName;
+  lo
+}

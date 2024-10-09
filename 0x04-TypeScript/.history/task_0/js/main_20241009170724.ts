@@ -1,5 +1,7 @@
 
 
+alert(" kkkkk")
+
 // interface Student
 interface Student {
   firstName : string,
@@ -25,7 +27,7 @@ const studentsList = [
 ];
 
 
-let table = document.createElement('table');
+let myTable = document.createElement('table');
 
 // rendering through
 
@@ -37,4 +39,4 @@ studentsList.forEach((student) => {
   locationCell.textContent = student.location;
 });
 
-document.body.appendChild(table)
+document.body.appendChild(myTable)

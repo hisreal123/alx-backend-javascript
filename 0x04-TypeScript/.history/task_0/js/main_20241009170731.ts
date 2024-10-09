@@ -1,5 +1,7 @@
 
 
+alert(" kkkkk")
+
 // interface Student
 interface Student {
   firstName : string,
@@ -37,4 +39,4 @@ studentsList.forEach((student) => {
   locationCell.textContent = student.location;
 });
 
-document.body.appendChild(table)
+document.body.appendChild(myTable)

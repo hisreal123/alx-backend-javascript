@@ -1,5 +1,7 @@
 
 
+alert(" kkkkk")
+
 // interface Student
 interface Student {
   firstName : string,
