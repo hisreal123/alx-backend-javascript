@@ -36,10 +36,10 @@ class StudentClass implements StudentClass {
   }
 
   workOnHomework() {
+    return this.firstName;
+  }
+}
     return "Currently working";
   }
 
   displayName() {
-    return this.firstName;
-  }
-}
