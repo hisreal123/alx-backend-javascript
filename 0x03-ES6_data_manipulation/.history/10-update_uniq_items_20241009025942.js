@@ -6,7 +6,7 @@ const updateUniqueItems = (map) => {
     throw new Error('Cannot proces');
   }
   map.forEach((key, value) => {
-    if (key === 1){
+    if (value === 1){
       map.set(value, 100);
     }
   });
