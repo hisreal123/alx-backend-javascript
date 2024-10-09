@@ -1,6 +1,8 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable */
 
-const hasValuesFromArray = (set, array) => array.every((value) => set.has(value));
+const hasValuesFromArray = (set, array) => {
+  return 
+}
 
 export default hasValuesFromArray;
