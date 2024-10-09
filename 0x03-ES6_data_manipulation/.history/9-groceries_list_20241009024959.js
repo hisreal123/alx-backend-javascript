@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable */
-const groceriesList = () => new Map([
+const groceriesList = () => new Map([ 
   ['Apples', 10],
   ['Tomatoes', 10],
   ['Pasta', 1],
