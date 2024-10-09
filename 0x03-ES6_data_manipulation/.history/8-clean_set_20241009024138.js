@@ -4,12 +4,11 @@
 const cleanset = (set, startString) => {
   const _parts = [];
 
-  for (const elem of set.values()) {
+  for (const elem of set) {
     if (typeof  elem === 'string' && elem.startsWith(startString)) {
       const elemSubString = elem.substring(startString.length);
-      if (elemSubString && elemSubString !== elem){
-        _parts.push(elemSubString);
-      }
+      if ()
+      _parts.push(elemSubString);
     }
   }
 
