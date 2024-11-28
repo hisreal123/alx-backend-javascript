@@ -17,7 +17,7 @@ describe("sendPaymentRequestToApi", () => {
 
     sendPaymentRequestToApi(100, 20);
     expect(calculateNumberSpy.calculateNumber.calledWith('SUM', 100, 20)).to.be.true; // check specific arguements it is calld with
-    expect(calculateNumberSpy.calculateNumber.called).to.be.equal(1); // check if the function was called
+    expect(calculateNumberSpy.calculateNumber.calledCount).to.be.equal(1); // check if the function was called
     calculateNumberSpy.calculateNumber.restore(); // used to revert the behavior of the spy to its original state
   });
 });
