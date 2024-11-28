@@ -9,7 +9,4 @@ describe("getPaymentTokenFromAPI", () => {
     });
   });
 });
-
-
- //By using .deep, Chai will compare the contents of the objects or arrays, rather than just checking if they reference the same memory location.
-
+//By using .deep, Chai will compare the contents of the objects or arrays, rather than just checking if they reference the same memory location.
