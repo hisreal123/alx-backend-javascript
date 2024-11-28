@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "Omos George",
+  "author": "Omos George <omosgoerge@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "mocha": "^10.8.2"
