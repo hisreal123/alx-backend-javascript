@@ -12,7 +12,7 @@ app.on('request', (_, res) => {
   res.write(Buffer.from(responseText))
 });
 
-app.listen(1245, () => {
+app.listen(1245, HOST, () => {
   console.log(`Server is listening on -> http://${HOST}:${PORT}\n`);
 })
 
